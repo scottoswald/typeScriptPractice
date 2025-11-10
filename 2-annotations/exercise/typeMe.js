@@ -52,11 +52,11 @@ const getEventDetails = (eventId) => {
 function test() {
     const results = [{
         actual: getEventDetails(1),
-        expected: 'Thanksgiving Potluck on Fri Nov 28 2025: 3 going',
+        expected: `${events[0].title} on ${new Date(events[0].date).toDateString()}: 3 going`,
     },
     {
         actual: getEventDetails(2),
-        expected: 'EventExpo 2026 on Tue Mar 31 2026: 0 going',
+        expected: `${events[1].title} on ${new Date(events[1].date).toDateString()}: 0 going`,
     },
     {
         actual: getEventDetails(404),

@@ -27,7 +27,7 @@ const events: Event[] = [
     {
         id: 2,
         title: "EventExpo 2026",
-        date: '2026-04-01',
+        date: "2026-04-01",
         description: "Discover the future of event planning at EventExpo 2026. Network with industry leaders, explore cutting-edge technologies, and attend inspiring workshops.",
         host_id: "3"
     }
@@ -69,11 +69,11 @@ const getEventDetails = (eventId: ID): string => {
 function test(): void {
     const results = [{
         actual: getEventDetails(1),
-        expected: 'Thanksgiving Potluck on Fri Nov 28 2025: 3 going',
+        expected: `${events[0].title} on ${new Date(events[0].date).toDateString()}: 3 going`,
     },
     {
         actual: getEventDetails(2),
-        expected: 'EventExpo 2026 on Tue Mar 31 2026: 0 going',
+        expected: `${events[1].title} on ${new Date(events[1].date).toDateString()}: 0 going`,
     },
     {
         actual: getEventDetails(404),
