@@ -7,6 +7,12 @@ _Jump-start your TypeScript journey with this friendly, practical intro from Anj
 This is a companion repository for the [TypeScript First Steps](https://frontendmasters.com/courses/typescript-first-steps/) course on Frontend Masters.
 [![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)](https://frontendmasters.com/courses/typescript-first-steps/)
 
+---
+
+## My Notes
+
+I am currently learning Typescript and taking part in this course.
+
 
 ### Links
 
